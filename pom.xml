@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>http.async.client</groupId>
+  <groupId>com.fluree</groupId>
   <artifactId>http.async.client</artifactId>
   <packaging>jar</packaging>
-  <version>1.3.1-5-0xc122</version>
+  <version>1.3.1-7-0x10426-DIRTY</version>
   <name>http.async.client</name>
   <description>Asynchronous HTTP Client for Clojure</description>
   <url>https://github.com/cch1/http.async.client</url>
@@ -19,7 +19,7 @@
     <url>https://github.com/cch1/http.async.client</url>
     <connection>scm:git:git://github.com/cch1/http.async.client.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/cch1/http.async.client.git</developerConnection>
-    <tag>c1223b8d2478e83814db6327127cea0d9ab26ef5</tag>
+    <tag>10426c6df961a79fe084e495e1447e650d40bc8d</tag>
   </scm>
   <build>
     <sourceDirectory>src/clj</sourceDirectory>

@@ -1,4 +1,4 @@
-(defproject http.async.client :lein-v
+(defproject com.fluree/http.async.client :lein-v
   :name             "http.async.client"
   :description      "Asynchronous HTTP Client for Clojure"
   :url              "https://github.com/cch1/http.async.client"
