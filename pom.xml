@@ -4,7 +4,7 @@
   <groupId>com.fluree</groupId>
   <artifactId>http.async.client</artifactId>
   <packaging>jar</packaging>
-  <version>1.3.1-7-0x10426-DIRTY</version>
+  <version>1.3.1-22-0xe6cf</version>
   <name>http.async.client</name>
   <description>Asynchronous HTTP Client for Clojure</description>
   <url>https://github.com/cch1/http.async.client</url>
@@ -19,7 +19,7 @@
     <url>https://github.com/cch1/http.async.client</url>
     <connection>scm:git:git://github.com/cch1/http.async.client.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/cch1/http.async.client.git</developerConnection>
-    <tag>10426c6df961a79fe084e495e1447e650d40bc8d</tag>
+    <tag>e6cfedd31ae03322cdf8a2a0aa45a4f2b8ebc8b7</tag>
   </scm>
   <build>
     <sourceDirectory>src/clj</sourceDirectory>
@@ -80,24 +80,24 @@
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>tools.logging</artifactId>
-      <version>0.4.1</version>
+      <version>1.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-server</artifactId>
-      <version>9.4.19.v20190610</version>
+      <version>10.0.7</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-security</artifactId>
-      <version>9.4.19.v20190610</version>
+      <version>10.0.7</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-continuation</artifactId>
-      <version>9.4.14.v20181114</version>
+      <version>9.4.44.v20210927</version>
       <scope>test</scope>
     </dependency>
     <dependency>
