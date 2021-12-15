@@ -5,7 +5,7 @@
   :source-paths ["src/clj"]
   :dependencies [[org.clojure/clojure "1.10.3"]
                  [org.asynchttpclient/async-http-client "2.12.3"]
-                 [org.clojure/tools.logging "1.1.0"]]
+                 [org.clojure/tools.logging "1.2.2"]]
   :min-lein-version "2.5.1"
   :plugins [[lein-codox "0.10.8"]
             [lein-difftest "2.0.0"]
@@ -24,7 +24,7 @@
                                   [org.eclipse.jetty/jetty-continuation "9.4.44.v20210927"]
                                   [aleph "0.4.6"]
                                   [log4j "1.2.17"]
-                                  [org.slf4j/slf4j-log4j12 "1.7.12" :upgrade? false]]}}
+                                  [org.slf4j/slf4j-log4j12 "1.7.32" :upgrade? false]]}}
   :codox {:output-path "gh-pages/doc"
           :src-dir-uri "http://github.com/cch1/http.async.client/blob/{version}/{filepath}#L{line}"
           :src-linenum-anchor-prefix "L"}
